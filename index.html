@@ -30,6 +30,15 @@
         font-style: normal;
         text-shadow: 2px 2px #f6bbac;
       }
+
+      .donate-button {
+        box-shadow: 4px 4px #f6bbac;
+        text-shadow: 2px 2px #24447c;
+      }
+
+      .donate-button:hover {
+        text-shadow: 2px 2px #f6bbac;
+      }
     </style>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,7 +46,7 @@
   <body class="bg-[#E9E6D9]">
     <header>
       <div class="container mx-auto py-8 px-4 text-center">
-        <h1 class="text-4xl">Tessel op zee!</h1>
+        <h1 class="text-5xl">Tessel op zee!</h1>
       </div>
     </header>
 
@@ -47,8 +56,33 @@
         style="background-image: url(/gulf-pattern-light-dark.png)"
       >
         <div class="container mx-auto px-4 pt-9 pb-8">
-          Hoi, ik ben Tessel en ik ben 14 jaar oud. In januari 2026 wil ik graag
-          een zeilreis maken en Alzheimer Nederland steunen. Wil je me helpen?
+          <div class="flex">
+            <div class="flex-none mr-4">
+              <img
+                src="/portrait.png"
+                alt="Foto van Tessel"
+                width="118"
+                height="120"
+              />
+            </div>
+
+            <div class="flex-1">
+              <p>
+                Hoi, ik ben Tessel en ik ben 14 jaar oud. In januari 2026 wil ik
+                graag een zeilreis maken en Alzheimer Nederland steunen. Wil je
+                me helpen?
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <a
+              href="https://www.ing.nl/de-ing/payreq?trxid=IkmGDaeTznGpdosQNEh2GDvJHd6Mfz2Y"
+              class="block px-4 py-4 rounded-xl bg-[#E74344] hover:bg-[#E9E6D9] text-[#E9E6D9] hover:text-[#E74344] text-2xl text-center donate-button"
+            >
+              Doneer nu!
+            </a>
+          </div>
         </div>
       </section>
 
@@ -56,7 +90,7 @@
         class="bg-repeat-x bg-[size:100px]"
         style="background-image: url(/gulf-pattern-dark-light.png)"
       >
-        <div class="container mx-auto px-4 py-8">
+        <div class="container mx-auto px-4 pt-9 pb-8">
           <h2 class="text-2xl mb-6">Over de reis</h2>
 
           <p>
