@@ -1,10 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Tessel op Zee</title>
-	</head>
-	<body>
-		<h1>Tessel op zee!</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tessel op Zee</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        color: #24447c;
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      h1,
+      h2 {
+        color: #e74346;
+        font-family: "Poetsen One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px #f6bbac;
+      }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#E9E6D9]">
+    <header>
+      <div class="container mx-auto py-8 px-4 text-center">
+        <h1 class="text-4xl">Tessel op zee!</h1>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="bg-[#24447C] text-[#E9E6D9] text-lg font-bold bg-repeat-x bg-[size:74px]"
+        style="background-image: url(/gulf-pattern-light-dark.png)"
+      >
+        <div class="container mx-auto px-4 pt-9 pb-8">
+          Hoi, ik ben Tessel en ik ben 14 jaar oud. In januari 2026 wil ik graag
+          een zeilreis maken en Alzheimer Nederland steunen. Wil je me helpen?
+        </div>
+      </section>
+
+      <section
+        class="bg-repeat-x bg-[size:100px]"
+        style="background-image: url(/gulf-pattern-dark-light.png)"
+      >
+        <div class="container mx-auto px-4 py-8">
+          <h2 class="text-2xl mb-6">Over de reis</h2>
+
+          <p>
+            In januari 2026 ga ik een zeilreis maken met Masterskip, een
+            organisatie die avontuurlijke reizen organiseert voor jongeren. De
+            reis duurt 5 weken en ik ga zeilen in het Caribisch gebied. Tijdens
+            de reis ga ik samen met zo‘n 40 andere jongeren tussen de 14 en 18
+            jaar oud aan boord van het tallship de Gulden Leeuw. We werken zes
+            dagen per week van 8:00 tot 12:00 aan school (zelfstudie) en leren
+            daarnaast alles over zeilen, het schip zelf en de landen die we
+            aandoen. Het is een geweldige kans om mezelf op verschillende
+            gebieden te ontwikkelen, van zelfstandigheid en teamwork tot
+            zeiltechnieken.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-sm text-[#60A8C9]">
+      <div
+        class="container mx-auto px-4 border-t-2 border-[#60A8C9] border-dotted py-8"
+      >
+        © 2025 tesselopzee.nl
+      </div>
+    </footer>
+  </body>
 </html>
